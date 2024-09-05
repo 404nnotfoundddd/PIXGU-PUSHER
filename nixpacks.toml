@@ -1,2 +1,5 @@
 [start]
 cmd = 'bun run start'
+
+[install]
+cmd = 'bun i && npm install -g @soketi/soketi'
