@@ -1,5 +1,5 @@
+[install]
+cmd = 'apt install -y git python3 gcc build-essential && npm install -g @soketi/soketi && bun install'
+
 [start]
 cmd = 'bun run start'
-
-[install]
-cmd = 'npm install -g @soketi/soketi && bun i'
