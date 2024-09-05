@@ -1,5 +1,5 @@
 [install]
-cmd = 'apt install -y git python3 gcc build-essential && npm install -g @soketi/soketi && bun install'
+cmd = 'apt install -y git python3 gcc build-essential && node -v  && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash && nvm use 18 && node -v && npm install -g @soketi/soketi'
 
 [start]
-cmd = 'bun run start'
+cmd = 'npm run start'
